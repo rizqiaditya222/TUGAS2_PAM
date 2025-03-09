@@ -40,8 +40,8 @@ class MainActivity : AppCompatActivity() {
 
             val intentHasil = Intent(this, Activity2::class.java).apply {
                 putExtra("HASIL", hasil)
-                putExtra("NIM", "225150200111012")
-                putExtra("NAMA", "Rizqi Aditya")
+                putExtra("NIM", "235150700111025")
+                putExtra("NAMA", "Muhammad Rizqi Aditya Firmansyah")
             }
             startActivity(intentHasil)
         }
